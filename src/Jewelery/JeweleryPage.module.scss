@@ -1,0 +1,169 @@
+.divAll{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;}
+
+.productsCart{
+    width: 429px;
+    height: 680px;
+    margin-top: 190px;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
+
+.images{
+    width: 225px;
+    height: 270px;
+}
+
+.category{
+    background-color: #FFF;
+    font-weight: 700;
+    margin-right: 250px;
+    margin-top: 30px;
+    color: #0a89ff;;
+}
+
+.title{
+    background-color: #FFF;
+    text-align: center;
+    font-weight: 900;
+}
+
+.description{
+    background-color: #FFF;
+    text-align: start;
+    font-size: 19px;
+    color: #212121;
+    margin-left: 10px;
+}
+
+.price{
+    width: 385px;
+    height: 45px;
+    border: solid 1px #0a89ff;
+    font-weight: 700;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+}
+
+.addButCart{
+    width: 385px;
+    height: 45px;
+    border-radius: 15px;
+    background-color:#0a89ff;
+    color: #FFF;
+    border: none;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+}
+
+.addButCart:hover{
+    opacity: 0.7;
+}
+
+.endDivAll{
+    width: 100%;
+    height: 200px;
+    background-color: red
+}
+
+.divAll {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.endDivAll{
+    width: 100%;
+    height: 300px;
+    background-color: #0a89ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.endDivTitle{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0a89ff;
+}
+
+.jeyversDiv{
+    width: 150px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 38px;
+    font-weight: bold;
+    color: white;
+    background-color: #0a89ff;
+    border-right: solid 1px;
+
+}
+
+.apiDiv{
+    width: 250px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0a89ff;
+    color: white;
+    border-right: solid 1px;
+    font-size: 18px;
+}
+
+.portfolioDiv{
+    width: 250px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0a89ff;
+    border-right: solid 1px;
+    font-size: 18px;
+    color: white;
+}
+
+.productsCart:nth-last-child(2) {
+    width: 1300px;
+    height: 600px;
+    margin-top: 35px;
+}
+
+.FakestoreLink{
+    text-decoration: none;
+    color: #FFF;
+    opacity: 0.7;
+    background-color: #0a89ff;
+    cursor: pointer;
+}
+
+.FakestoreLink:hover{
+    opacity: 1;
+}
+
+.JeyiAdoleLink{
+    text-decoration: none;
+    color: #FFF;
+    opacity: 0.7;
+    background-color: #0a89ff;
+    cursor: pointer;
+}
+
+.JeyiAdoleLink:hover{
+    opacity: 1;
+}
